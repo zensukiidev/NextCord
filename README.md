@@ -2,8 +2,8 @@
 
 <p align="center">
   <a href="https://github.com/rinxyzz/SelfBot/"><img src="https://img.shields.io/github/last-commit/rinxyzz/SelfBot?style=flat" /></a>
-  <a href="https://github.com/rinxyzz/SelfBot/stargazers"><img src="https://img.shields.io/github/stars/Mewzax/Discord-Selfbot-RPC?style=flat" /></a>
-  <a href="https://github.com/Mewzax/Discord-RPC-Selfbot/"><img src="https://visitor-badge.laobi.icu/badge?page_id=Mewzax.Discord-Selfbot-RPC" /></a>
+  <a href="https://github.com/rinxyzz/SelfBot/"><img src="https://visitor-badge.laobi.icu/badge?page_id=Mewzax.Discord-Selfbot-RPC" /></a>
+  <img alt="GitHub Workflow Status (with branch)" src="https://img.shields.io/github/actions/workflow/status/rinxyzz/SelfBot/codeql.yml?branch=main">
  
   <br>
   <b>The most efficient Discord RPC you'll ever find.</b><br>
@@ -27,20 +27,39 @@
 - Game RPC
 - Twitch RPC
 - Custom Status: online, dnd, idle
-
-### FAQ
-
 ![image](https://cdn.discordapp.com/attachments/1068223147955998740/1068750809422119042/Screenshot_20230128_112215.png)
 
-## - Installation -
+# Installation
+## Setting up the Client ID
+- Create an app on Discord Devlopers Portal
+- Go to OAuth2 and copy the CLIENT ID
+- Open config.json replace where it says applicationID at the bottom with the Client ID you copied
+## Adding Images
+Once you have done that you can start adding images for your Rich Presence
 
-- Put Your Token In Secret Key Section
-![image](https://cdn.discordapp.com/attachments/1068223147955998740/1068751797864370316/image.png)
-- Put Client ID, You can find it in [Discord Developer Portal](https://discord.com/developers/applications)
-& Customized it
-![image](https://cdn.discordapp.com/attachments/1068223147955998740/1068752570484523099/image.png)
+- Navigate back to the Discord Devlopers Portal
+- Press Rich Presence in your application then
+- Click Art Assets then scroll down and you will see Add Image(s)
+- Click that then chose an image and name
+- Click Save to save your changes
 
-## - FAQ -
+**(excluding APP Name read above for info)**
+
+**(The image sections in the config.json would be the names of the images you uploaded to your app on Discord Devlopers Portal)**
+![image](https://camo.githubusercontent.com/d73bb456ba14d7d58bccfaa272e05aa4bc3cb1f7da2a7f92b6533b4d6e3d7f49/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3738393030373035363234343833343330342f3833353033353631323534353135353130322f6669782e706e67)
+![image](https://camo.githubusercontent.com/fd9e63ce894342f9bcf4b3d5aed498ecee0574cc92968f2213717e3b87988a8c/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3732393838383937363331353631333332372f3833353033363831333737363132353937322f646f6e652e706e67)
+
+# Host On Replit
+- Fork the repository
+- Go to https://www.replit.com
+- Create an account
+- Fork your project at https://replit.com/github
+- Edit config.json
+- Go to "Secrets environment variables"
+- Create the variable TOKEN and put your token
+RUN
+
+# FAQ 
 ### - How to import spotify images 
 - Connect to a spotify account on browser and create a playlist with the image you want
 - Go to https://developer.spotify.com/console/get-playlist-images/
@@ -56,7 +75,7 @@ largeImageKey: "spotify:YOUR-URL"
 
 <br />
 
-## - How To Make Keep Alive -
+# How To Make Keep Alive
 Uptime Robot is all about helping you to keep your websites up. It monitors your websites every 5 minutes and alerts you if your sites are down.
 > its 100% free It will keep your server up until your server ran into problems.
 

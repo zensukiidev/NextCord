@@ -1,5 +1,3 @@
-// to understand how to use app id and image keys, follow https://github.com/slowwdev/Discord-Selfbot-RPC/wiki/Installation
-
 module.exports = {
     // spotify/game/twitch
     "mode": "", 
