@@ -1,8 +1,8 @@
-<h1 align="center">Discord-RPC-Selfbot</h1>
+<h1 align="center">SelfBot</h1>
 
 <p align="center">
-  <a href="https://github.com/Mewzax/Discord-RPC-Selfbot/"><img src="https://img.shields.io/github/last-commit/Mewzax/Discord-Selfbot-RPC?style=flat" /></a>
-  <a href="https://github.com/Mewzax/Discord-RPC-Selfbot/stargazers"><img src="https://img.shields.io/github/stars/Mewzax/Discord-Selfbot-RPC?style=flat" /></a>
+  <a href="https://github.com/rinxyzz/SelfBot/"><img src="https://img.shields.io/github/last-commit/rinxyzz/SelfBot?style=flat" /></a>
+  <a href="https://github.com/rinxyzz/SelfBot/stargazers"><img src="https://img.shields.io/github/stars/Mewzax/Discord-Selfbot-RPC?style=flat" /></a>
   <a href="https://github.com/Mewzax/Discord-RPC-Selfbot/"><img src="https://visitor-badge.laobi.icu/badge?page_id=Mewzax.Discord-Selfbot-RPC" /></a>
  
   <br>
@@ -14,11 +14,11 @@
 
 ---
 
- ### Why is Discord-Selfbot-RPC better than other Discord RPC ?
+ ## Why is Discord-Selfbot-RPC better than other Discord RPC ?
 
- because it don't need to have Discord running in background / Free Hosting on replit.com 24h/7 / more features
+> because it don't need to have Discord running in background / Free Hosting on replit.com 24h/7 / more features
 
-![image](https://user-images.githubusercontent.com/75091300/199565539-111d4043-23ae-47e9-aa4f-671e71635167.png)
+![image](https://media.discordapp.net/attachments/1068223147955998740/1068750623006281758/Screenshot_20230128_112636.png?width=240&height=468)
 
 
 ### Features:
@@ -30,26 +30,66 @@
 
 ### FAQ
 
-![image](https://user-images.githubusercontent.com/75091300/199565394-1577deab-8035-4d7b-b02e-d863e6638e3f.png)
+![image](https://cdn.discordapp.com/attachments/1068223147955998740/1068750809422119042/Screenshot_20230128_112215.png)
 
-- **Q: Where can I find the installation steps?**
-- A: [Installation](https://github.com/Mewzax/Discord-Selfbot-RPC/wiki/Installation)
+## - Installation -
+
+- Put Your Token In Secret Key Section
+![image](https://cdn.discordapp.com/attachments/1068223147955998740/1068751797864370316/image.png)
+- Put Client ID, You can find it in [Discord Developer Portal](https://discord.com/developers/applications)
+& Customized it
+![image](https://cdn.discordapp.com/attachments/1068223147955998740/1068752570484523099/image.png)
+
+## - FAQ -
+### - How to import spotify images 
+- Connect to a spotify account on browser and create a playlist with the image you want
+- Go to https://developer.spotify.com/console/get-playlist-images/
+- Open your playlist in browser and copy the ID next https://open.spotify.com/playlist/
+- Put your ID in https://developer.spotify.com/console/get-playlist-images/
+- Push GET TOKEN button
+- Autorize the app to get your token
+- Push TRY IT button
+- Use it in the config file:
+```
+largeImageKey: "spotify:YOUR-URL"
+```
 
 <br />
 
-- **Q: How can I obtain my token?**
-- A: [How to obtain your token](https://www.youtube.com/watch?v=rawcwqFJCCE)
+## - How To Make Keep Alive -
+Uptime Robot is all about helping you to keep your websites up. It monitors your websites every 5 minutes and alerts you if your sites are down.
+> its 100% free It will keep your server up until your server ran into problems.
 
-<br />
+UptimeRobot setup Once you log into your UptimeRobot account.
+> Go to Dashboard (default screen for uptimerobot is dashboard) To add new link. Click Add New Monitor
 
-- **How to import spotify images ?**
-- A: [How to use Spotify API](https://github.com/Mewzax/Discord-Selfbot-RPC/wiki/Spotify-API)
+![image](https://camo.githubusercontent.com/c09d7680c8ee97d9c84d6b66d45bbb47a6f9125236a0acb98ef64f035a4935d7/68747470733a2f2f73746f726167652e676f6f676c65617069732e636f6d2f7265706c69742f696d616765732f313534333730303435373935325f62303034663032623166636335633465626266643964643461633665373261332e706e)
+Once you click that. This Screen will popup:
+![image](https://camo.githubusercontent.com/b49e3cd4eb7d9706cb48c11f5e91d87a5ab83a78b848df8825588c2b301d8484/68747470733a2f2f73746f726167652e676f6f676c65617069732e636f6d2f7265706c69742f696d616765732f313534333730303539313630395f36333732656333326632306133623965363938633664313730363536303865642e706e)
+Now Select Monitor type HTTP(s).
+> Make sure type is HTTP(s) not ping or other
 
-<br />
+Now details popped up like these
+![image](https://camo.githubusercontent.com/02b46d97454f8b5e42c7b569182cb98133ef8e86ef6d2213293429f86ddc7d9c/68747470733a2f2f73746f726167652e676f6f676c65617069732e636f6d2f7265706c69742f696d616765732f313534333730303631343230395f63616233636661313230346235663530303364646634383038666131363664372e706e)
+For Friendly Name enter what would you like to call your Monitor. For URL (or IP) enter your web server link.
 
-- **How to run 24/7 ?**
-- A: [Keep Alive your app](https://github.com/Mewzax/Discord-Selfbot-RPC/wiki/Keep-Alive)
+> if you're using repl, it should look like this https://your-repl-name.your-username.repl.co, but with your repl name.
 
+For Monitoring Interval, I'll suggest leaving it to the default value.
+
+Now if you have all the info done. your page should look like this
+![image](https://camo.githubusercontent.com/d42c1f1ae2291856612dff223109121ada4c834889ffd57f933a9e2493b2784b/68747470733a2f2f73746f726167652e676f6f676c65617069732e636f6d2f7265706c69742f696d616765732f313534333730303633383837315f61373131656132366231363331306335323637396439633334366432313232312e706e)
+Now you also have this box:
+![image](https://camo.githubusercontent.com/df78c63596c4b4909ac6298685896c92ad9c1af9232ab668cd3c639b921c98f8/68747470733a2f2f73746f726167652e676f6f676c65617069732e636f6d2f7265706c69742f696d616765732f313534333730303738393533335f63653436396131323539636533376266613135663430663035633232393131632e706e)
+> This means that if you select this, and your server is down or ran into any problems. UptimeRobot will alert you by sending an email. I suggest you add alert notify
+
+Now click Create Monitor You have successfully created a monitor. Now your server will stay online, even if you're not running your code.
+
+On your dashboard, your monitor will appear:
+![image](https://camo.githubusercontent.com/546e6fb18cdda7d40b2ce888a9e9f97f154addb948c6452438d159383ab513c7/68747470733a2f2f73746f726167652e676f6f676c65617069732e636f6d2f7265706c69742f696d616765732f313534333730303730373039315f38633631313461636561666634343865643337613238303239646138643363312e706e)
+as you see, it showing that your server is down. Your server is not down. To fix this just give it 1-2 min and reload your page.
+![image](https://camo.githubusercontent.com/3309ea7f87a91e03f8cd66a8b9e0f9f41a65afcecd8f4343087a3e604b254ecd/68747470733a2f2f73746f726167652e676f6f676c65617069732e636f6d2f7265706c69742f696d616765732f313534333730303732343335365f63353635376236646338333730366662343637363061386666386434616362372e706e)
+There you go! Your Monitor is running.
 ### Disclaimer
 ```
 Using a selfbot is against TOS and can get your account banned. Use it at your own risks.
