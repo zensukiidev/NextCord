@@ -4,6 +4,7 @@
   <a href="https://github.com/rinxyzz/SelfBot/"><img src="https://img.shields.io/github/last-commit/rinxyzz/SelfBot?style=flat" /></a>
   <a href="https://github.com/rinxyzz/SelfBot/"><img src="https://visitor-badge.laobi.icu/badge?page_id=Mewzax.Discord-Selfbot-RPC" /></a>
   <img alt="GitHub Workflow Status (with branch)" src="https://img.shields.io/github/actions/workflow/status/rinxyzz/SelfBot/codeql.yml?branch=main">
+  <img alt="GitHub all releases" src="https://img.shields.io/github/downloads/rinxyzz/SelfBot/total?style=social">
  
   <br>
   <b>The most efficient Discord RPC you'll ever find.</b><br>
@@ -14,9 +15,9 @@
 
 ---
 
- ## Why is Discord-Selfbot-RPC better than other Discord RPC ?
+ ## Why is Selfbot better than other Discord RPC ?
 
-> because it don't need to have Discord running in background / Free Hosting on replit.com 24h/7 / more features
+> because it don't need to have Discord running in background / Free Hosting on replit.com 24h/7 / more features.
 
 ![image](https://media.discordapp.net/attachments/1068223147955998740/1068750623006281758/Screenshot_20230128_112636.png?width=240&height=468)
 
