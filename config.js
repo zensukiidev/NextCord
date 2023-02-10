@@ -5,7 +5,7 @@ module.exports = {
     "status": "",
 
     "game": {
-        "applicationID": "", // application iD on discord developer portal (https://github.com/rinxyzz/SelfBot#setting-up-the-client-id)
+        "applicationID": "", // application iD on discord developer portal (https://github.com/rinxyzz/NextCord#setting-up-the-client-id)
 
         "name": "", // title
         "details": "", // first row below title
@@ -22,7 +22,7 @@ module.exports = {
         "endTimestamp": "" // time left since this timestamp (decrease --)
     },
     "twitch": {
-        "applicationID": "",  // application iD on discord developer portal (https://github.com/rinxyzz/SelfBot#setting-up-the-client-id)
+        "applicationID": "",  // application iD on discord developer portal (https://github.com/rinxyzz/NextCord#setting-up-the-client-id)
         "url": "", // twitch channel link sample (https://twitch.tv.rinzxxdc)
 
         "details": "", // title
@@ -42,7 +42,7 @@ module.exports = {
         "details": "", // title
         "state": "", // row below title
 
-        "largeImageKey": "", // https://github.com/rinxyzz/SelfBot#--how-to-import-spotify-images
+        "largeImageKey": "", // https://github.com/rinxyzz/NextCord#--how-to-import-spotify-images
         "largeImageText": "", // will also be second row below title
         
         "smallImageKey": "",
