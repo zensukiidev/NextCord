@@ -25,7 +25,7 @@ client.on("ready", async() => {
     if (config.status === 'online' || config.status === 'idle' || config.status === 'dnd') {
         client.user.setStatus(config.status);
     }
-    console.logger.info('Spotify RPC enableds!');
+    console.logger.info('Spotify RPC enabled');
     console.logger.info('Spotify: ' + config.spotify.details);
     console.logger.info(`Status: ${!config.status ? 'default' : config.status}`)
 })
