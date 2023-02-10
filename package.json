@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Rin4Ever",
   "license": "ISC",
   "dependencies": {
     "chalk": "^4.1.1",
