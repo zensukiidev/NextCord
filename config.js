@@ -12,7 +12,7 @@ module.exports = {
         "state": "", // row below first row
 
         "largeImageKey": "", // Large Image
-        "largeImageText": "", // the text when img surrounded (default is largeimage name in dev portal)
+        "largeImageText": "", // the text when img surrounded (default is largeimage name in developers portal)
 
         "smallImageKey": "", // Small Image
         "smallImageText": "",
