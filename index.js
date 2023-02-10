@@ -18,6 +18,6 @@ console.logger.info(`
 )
 
 app.get('/', (_, res) => {
-  res.send('Presence is ready!');
+  res.send('Presence is ready!!');
 });
 app.listen(3000)
