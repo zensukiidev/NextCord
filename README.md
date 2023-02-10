@@ -1,10 +1,11 @@
-<h1 align="center">SelfBot</h1>
+<h1 align="center">NextCord</h1>
+<h3 align="center">Allow You To Make Playing, Streaming, & Listening Status.</h3>
 
 <p align="center">
-  <a href="https://github.com/rinxyzz/SelfBot/"><img src="https://img.shields.io/github/last-commit/rinxyzz/SelfBot?style=flat" /></a>
-  <a href="https://github.com/rinxyzz/SelfBot/"><img src="https://visitor-badge.laobi.icu/badge?page_id=Mewzax.Discord-Selfbot-RPC" /></a>
-  <img alt="GitHub Workflow Status (with branch)" src="https://img.shields.io/github/actions/workflow/status/rinxyzz/SelfBot/codeql.yml?branch=main">
-  <img alt="GitHub all releases" src="https://img.shields.io/github/downloads/rinxyzz/SelfBot/total?style=social">
+  <a href="https://github.com/rinxyzz/NextCord/"><img src="https://img.shields.io/github/last-commit/rinxyzz/SelfBot?style=flat" /></a>
+  <a href="https://github.com/rinxyzz/NextCord/"><img src="https://visitor-badge.laobi.icu/badge?page_id=Mewzax.Discord-Selfbot-RPC" /></a>
+  <img alt="GitHub Workflow Status (with branch)" src="https://img.shields.io/github/actions/workflow/status/rinxyzz/NextCord/codeql.yml?branch=main">
+  <img alt="GitHub all releases" src="https://img.shields.io/github/downloads/rinxyzz/NextCord/total?style=social">
  
   <br>
   <b>The most efficient Discord RPC you'll ever find.</b><br>
@@ -15,7 +16,7 @@
 
 ---
 
- ## Why is Selfbot better than other Discord RPC ?
+ ## Why is NextCord better than other Discord RPC ?
 
 > because it don't need to have Discord running in background / Free Hosting on replit.com 24h/7 / more features.
 
@@ -111,6 +112,6 @@ as you see, it showing that your server is down. Your server is not down. To fix
 ![image](https://camo.githubusercontent.com/3309ea7f87a91e03f8cd66a8b9e0f9f41a65afcecd8f4343087a3e604b254ecd/68747470733a2f2f73746f726167652e676f6f676c65617069732e636f6d2f7265706c69742f696d616765732f313534333730303732343335365f63353635376236646338333730366662343637363061386666386434616362372e706e)
 There you go! Your Monitor is running.
 ### Disclaimer
-```
-Using a selfbot is against TOS and can get your account banned. Use it at your own risks.
-```
+
+> :warning: **Warning:** Using a selfbot is against TOS and can get your account banned. Use it at your own risks.
+
