@@ -7,7 +7,7 @@ const app = express();
 
 module.exports = client;
 process.env.TOKEN ? client.login(process.env.TOKEN) : console.exit("No token provided");
-config.mode ? require(`./presences/${config.mode}`) : console.exit('No presence selected!');
+config.mode ? require(`./presences/${config.mode}`) : console.exit('No presence selected!!');
 console.logger.info(`
 
                     ██████╗ ██╗███████╗ ██████╗ ██████╗ ██████╗ ██████╗       ██████╗ ██████╗  ██████╗
